@@ -3,6 +3,7 @@ Rails.application.routes.draw do
   root 'static_pages#index'
   get "/home" => "static_pages#home", as: "home"
   get "/about" => "static_pages#about", as: "about"
+  get "/roadmap" => "static_pages#roadmap", as: "roadmap"
   get "/government" => "static_pages#government", as: "government"
   get "/voad" => "static_pages#voad", as: "voad"
   get "/survivor" => "static_pages#survivor", as: "survivor"
